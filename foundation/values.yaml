@@ -68,8 +68,8 @@ aws-alb-ingress-controller:
   ## Required if autoDiscoverAwsVpcID != true
   awsVpcID: "vpc-015cd7e27be63733e"
   extraEnv:
-    AWS_ACCESS_KEY_ID: "AKIAJVMNE7DX3FH56HTA"
-    AWS_SECRET_ACCESS_KEY: "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"
+    AWS_ACCESS_KEY_ID: ""
+    AWS_SECRET_ACCESS_KEY: ""
 
 # Docker image information for the Pega docker image, containing the application server.
 # To use this feature you MUST host the image using a private registry.
@@ -85,7 +85,7 @@ docker:
     # Provide your Docker registry username and password to access the docker image. These credentials will be
     # used for both the Pega Platform image and the Elasticsearch image.
     username: "selvapal"
-    password: "Sel1kar2pal3$"
+    password: " "
 
   url: "jdbc:postgresql://pega-demo.cvg3oerprfmb.us-west-2.rds.amazonaws.com:5432/postgres"
   driverClass: "org.postgresql.Driver"
