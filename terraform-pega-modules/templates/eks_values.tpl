@@ -68,8 +68,8 @@ aws-alb-ingress-controller:
   ## Required if autoDiscoverAwsVpcID != true
   awsVpcID: "vpc-015cd7e27be63733e"
   extraEnv:
-    AWS_ACCESS_KEY_ID: "AKIAJVMNE7DX3FH56HTA"
-    AWS_SECRET_ACCESS_KEY: "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"
+    AWS_ACCESS_KEY_ID: ""
+    AWS_SECRET_ACCESS_KEY: ""
 
 # Docker image information for the Pega docker image, containing the application server.
 # To use this feature you MUST host the image using a private registry.
