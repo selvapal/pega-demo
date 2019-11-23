@@ -85,7 +85,7 @@ docker:
     # Provide your Docker registry username and password to access the docker image. These credentials will be
     # used for both the Pega Platform image and the Elasticsearch image.
     username: "selvapal"
-    password: "Sel1kar2pal3$"
+    password: " "
 
   url: "jdbc:postgresql://pega-demo.cvg3oerprfmb.us-west-2.rds.amazonaws.com:5432/postgres"
   driverClass: "org.postgresql.Driver"
