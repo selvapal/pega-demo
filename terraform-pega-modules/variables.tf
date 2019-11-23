@@ -106,21 +106,21 @@ default = "selvapal"
 # Docker Registry Password #
 ############################
 variable docker_password {
-default = "Sel1kar2pal3$"
+default = ""
 }
 
 ###########################################################
 # AWS Account access key only in the case of provider EKS #
 ###########################################################
 variable aws_access_key_id {
-  default = "AKIAJVMNE7DX3FH56HTA"
+  default = ""
 }
 
 ##################################################################
 # AWS Account secret access key only in the case of provider EKS #
 ##################################################################
 variable aws_secret_access_key {
-  default = "mxAbXBu2b8y+iibcXA6BBX8E+4gAUwketMKRp8bZ"
+  default = ""
 }
 
 ###########################################################################
