@@ -1,0 +1,6 @@
+dependencies:
+- name: cassandra
+  repository: https://kubernetes-charts-incubator.storage.googleapis.com/
+  version: 0.13.3
+digest: sha256:b505e585bf23e30a923f46bf2d01e54a48262f0f7ff7111f8706168c5edb372a
+generated: "2019-11-12T07:09:00.367096071Z"

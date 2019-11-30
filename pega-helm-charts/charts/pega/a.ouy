@@ -1,0 +1,1000 @@
+  163  ls-altr
+  164  ls -altr
+  165  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  166  helm status mypega
+  167  kubectl get service -o go-template='{{range.spec.ports}}{{"Port to access: "}}{{.nodePort}}{{end}}' mypega --namespace myproject
+  168  kubectl get service -o go-template='{{range.spec.ports}}{{"Port to access: "}}{{.nodePort}}{{end}}' pega --namespace myproject
+  169  helm status
+  170  helm status mypega
+  171  kukubectl get pod -o=custom-columns=NODE:.spec.nodeName,NAME:.metadata.name --all-namespaces
+  172  kubectl get pod -o=custom-columns=NODE:.spec.nodeName,NAME:.metadata.name --all-namespaces
+  173  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  174  kubectl logs
+  175  kubectl logs -p pega-minikube-0
+  176  helm statusmypega
+  177  helm status mypega
+  178  kubectl logs -p pega-minikube
+  179  kubectl logs
+  180  kubectl logs -h
+  181  kubectl logs pega-minikube
+  182  kubectl logs  pega-minikube-0
+  183  kukubectl get pod -o=custom-columns=NODE:.spec.nodeName,NAME:.metadata.name --all-namespaces
+  184  kubectl get pod -o=custom-columns=NODE:.spec.nodeName,NAME:.metadata.name --all-namespaces
+  185  kukubectl get pod -o=custom-columns=NODE:.spec.nodeName,NAME:.metadata.name --all-namespaces
+  186  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  187  kubectl logd
+  188  kubectl logs
+  189  kubectl logs -f -p pega-minikube
+  190  kubectl logs -f -p pega-minikube-0
+  191  kubectl logs -f -p pega-minikube-o
+  192  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  193  kubectl get service -o go-template='{{range.spec.ports}}{{"Port to access: "}}{{.nodePort}}{{end}}' pega-search-0 --namespace myproject
+  194  kubectl get service -o go-template='{{range.spec.ports}}{{"Port to access: "}}{{.nodePort}}{{end}}' pega-search-o --namespace myproject
+  195  kubectl describe pod pega-minikube-0
+  196  kubectl describe pod pega-search-0
+  197  kubectlget pods
+  198  kubectl get pods
+  199  kubectl get service -o go-template='{{range.spec.ports}}{{"Port to access: "}}{{.nodePort}}{{end}}' pega-search-o --namespace myproject
+  200  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  201  kubectl describe pod  pega-minikube-0
+  202  kubectl describe pod 
+  203  kubectl describe pod  > a.out
+  204  vi a.out
+  205  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  206  helm status mypega
+  207  kubectl get pods -n myproject pega-minikube-0 -o yaml | grep uid
+  208  kubectl describe pod POD-UID
+  209  kubectl describe pod 957faeb4-957d-4ad1-ba0e-b9ab4d67f9ea
+  210  kubectl describe pod b4970bc9-fc65-4f48-b48d-b0ca8b590868
+  211  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  212  kubectl describe pega-minikube-0 957faeb4-957d-4ad1-ba0e-b9ab4d67f9ea
+  213  kubectl describe  957faeb4-957d-4ad1-ba0e-b9ab4d67f9ea
+  214  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  215  kubectl get pods
+  216  ps ax
+  217  ps ax | grep pega
+  218  ps ax | grep pega*
+  219  ps ax
+  220  docker pull pegasystems/pega-installer-ready
+  221  ls -altr
+  222  kubectl get pods
+  223  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  224  ls -altr
+  225  more values-minimal.yaml
+  226  helm status
+  227  helm status myproject
+  228  helm status mypega
+  229  helm ls --all --short | xargs -L1 helm delete --purge
+  230  ls -altr
+  231  vi values-minimal.yaml
+  232  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  233  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  234  helm status
+  235  helm status mypega
+  236  kubectl get service -o go-template='{{range.spec.ports}}{{"Port to access: "}}{{.nodePort}}{{end}}' pega-search-o --namespace myproject
+  237  history | grep pega
+  238  kubectl get pod -o=custom-columns=NODE:.spec.nodeName,NAME:.metadata.name --all-namespaces
+  239  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  240  top
+  241  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  242  ls
+  243  more values-minimal.yaml
+  244  helm ls --all --short | xargs -L1 helm delete --purge
+  245  exit
+  246  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  247  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  248  helm ls --all --short | xargs -L1 helm delete --purge
+  249  ls -altr
+  250  cd pega-helm-charts
+  251  ls -altr
+  252  minikube status
+  253  minikube start --vm-driver=none
+  254  kubectl get services
+  255  helm version
+  256  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  257  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  258  pwd
+  259  ls
+  260  ls -altr
+  261  cd charts/
+  262  ls -altr
+  263  cd pega/
+  264  ls -altr
+  265  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  266  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  267  kubectl get pods
+  268  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  269  ps ax
+  270  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  271  ps ax
+  272  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  273  kubectl describe pod 957faeb4-957d-4ad1-ba0e-b9ab4d67f9ea
+  274  kubectl get pods -n myproject pega-minikube-0 -o yaml | grep uid
+  275  kubectl describe pod 31a2381e-30f4-44f6-86bf-c935270635b9
+  276  kubectl describe pod 90bfe65e-e156-4dbe-a849-310e23a6bfcd
+  277  kubectl get pods -n myproject pega-minikube-0 -o yaml | grep uid
+  278  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  279  kubectl get pods
+  280  kubectl get pods mupega
+  281  kubectl get pods mypega
+  282  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  283  kubectl logs my-pod
+  284  kubectl logs pega-minikube-0
+  285  kubectl logs pega-search-0
+  286  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  287  kubectl get nodes -o yaml | egrep '\sname:|cpu:|memory:'
+  288  kubectl get nodes -o json | jq '.items[] | {name: .metadata.name, cap: .status.capacity}'
+  289  apt  install jq
+  290  kubectl get nodes -o json | jq '.items[] | {name: .metadata.name, cap: .status.capacity}'
+  291  kubectl describe pods
+  292  kubectl describe pods pega-minikube-0
+  293  kubectl get nodes -o json | jq '.items[] | {name: .metadata.name, cap: .status.capacity}'
+  294  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  295  pwd
+  296  ls -altr
+  297  more values-minimal.yaml
+  298  ls -altr
+  299  vi values-minimal.yaml
+  300  docker pull pegasystems/pega
+  301  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  302  kubectl describe pods tiller-deploy-68cff9d9cb-gb4mv
+  303  kubectl describe pods tiller-deploy-68cff9d9cb-gb4mvkube-addon-manager-minikube
+  304  kubectl describe pods kube-addon-manager-minikube
+  305  kubectl get pods -o wide --all-namespaces
+  306  kubectl get pods --all-namespaces | grep -i init
+  307  kubectl get pods -o wide --all-namespaces
+  308  kubectl get pods --all-namespaces | grep -i init
+  309  kubectl get pods -n dev1|grep -i session-service 
+  310  kubectl get pods -n myproject|grep -i session-service 
+  311  kubectl describe pods pega-minikube-0 -n myproject
+  312  kubectl get pods -n myproject|grep -i session-service 
+  313  kubectl describe pods pega-minikube-0 -n myproject
+  314  kubectl get pods -o wide --all-namespaces
+  315  kubectl describe pods pega-search-0 -n myproject
+  316  kubectl describe pods pega-minikube-0 -n myproject
+  317  ls -altr
+  318  more values-minimal.yaml
+  319  ls -altr
+  320  vi values-minimal.yaml
+  321  helm ls --all --short | xargs -L1 helm delete --purge
+  322  ls -altr
+  323  vi values-minimal.yaml
+  324  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  325  vi values-minimal.yaml
+  326  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  327  kubectl describe pods pega-minikube-0 -n myproject
+  328  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  329  kubectl get pods -o wide --all-namespaces
+  330  helm ls --all --short | xargs -L1 helm delete --purge
+  331  minikube stop
+  332  minikube start --cpus 4 --memory 12288
+  333  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  334  kubectl get pods -o wide --all-namespaces
+  335  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  336  kubectl get pods -o wide --all-namespaces
+  337  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  338  kubectl describe pods pega-search-0 -n myproject
+  339  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  340  kubectl describe pods pega-search-0 -n myproject
+  341  kubectl describe pods pega-minikube-0 -n myproject
+  342  kubectl describe pods pega-search-0 -n myproject
+  343  kubectl describe pods pega-minikube-0 -n myproject
+  344  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  345  kubectl describe pods pega-minikube-0 -n myproject
+  346  ls -altr
+  347  more values-minimal.yaml
+  348  kubectl describe pods pega-minikube-0 -n myproject
+  349  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  350  helm ls --all --short | xargs -L1 helm delete --purge
+  351  ls -altr
+  352  vi values-minimal.yaml
+  353  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  354  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  355  helm ls --all --short | xargs -L1 helm delete --purge
+  356  vi values-minimal.yaml
+  357  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  358  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  359  helm ls --all --short | xargs -L1 helm delete --purge
+  360  vi values-minimal.yaml
+  361  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  362  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  363  kubectl describe pods pega-minikube-0 -n myproject
+  364  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  365  kubectl describe pods pega-minikube-0 -n myproject
+  366  helm ls --all --short | xargs -L1 helm delete --purge
+  367  helm repo update
+  368  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  369  kubectl describe pods pega-minikube-0 -n myproject
+  370  clear
+  371  kubectl describe pods pega-minikube-0 -n myproject > a.out
+  372  vi a.out
+  373  kubectl describe pods pega-minikube-0 -n myproject
+  374  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  375  kubectl describe pods pega-minikube-0 -n myproject
+  376  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  377  helm repo update
+  378  helm ls --all --short | xargs -L1 helm delete --purge
+  379  minikube stop
+  380  minikube start --kubernetes-version v1.15.0
+  381  minikube delete
+  382  minikube start  --kubernetes-version=1.15.0
+  383  minikube start  --kubernetes-version=1.15.0 --vm-driver=none
+  384  curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get > get_helm.sh
+  385  chmod 700 get_helm.sh
+  386  ./get_helm.sh
+  387  kubectl create -f clusterrole.yaml
+  388  vi clusterrole.yaml
+  389  kubectl create -f clusterrole.yaml
+  390  kubectl create serviceaccount -n kube-system tiller
+  391  kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
+  392  helm init --service-account tiller
+  393  helm init --upgrade --service-account tiller
+  394  kubectl --namespace kube-system get pods | grep tiller
+  395  helm search pega
+  396  kubectl proxy
+  397  helm version
+  398  minikube stop
+  399  minikube start --cpus 4 --memory 12288
+  400  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  401  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  402  kubectl describe pods pega-minikube-0 -n myproject
+  403  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  404  kubectl describe pods pega-minikube-0 -n myproject
+  405  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  406  ls -altr
+  407  more values-minimal.yaml
+  408  clear
+  409  ls -altr
+  410  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  411  kubectl get service -o go-template='{{range.spec.ports}}{{"Port to access: "}}{{.nodePort}}{{end}}' pega-minikube-0 --namespace myproject
+  412  kubectl get services
+  413  kubectl get service -o go-template='{{range.spec.ports}}{{"Port to access: "}}{{.nodePort}}{{end}}' kubernetes --namespace myproject
+  414  kubectl get services --sort-by=.metadata.name
+  415  kubectl get service -o go-template='{{range.spec.ports}}{{"Port to access: "}}{{.nodePort}}{{end}}' kubernetes --namespace myproject
+  416  kubectl get service -o go-template='{{range.spec.ports}}{{"Port to access: "}}{{.nodePort}}{{end}}' minikube --namespace myproject
+  417  kubectl get services
+  418  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  419  ls -altr
+  420  more values-minimal.yaml
+  421  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  422  kubectl describe pods pega-minikube-0 -n myproject
+  423  kubectl get service -o go-template='{{range.spec.ports}}{{"Port to access: "}}{{.nodePort}}{{end}}' --namespace myproject
+  424  kubectl get service
+  425  sudo ufw disable
+  426  kubectl get service
+  427  kubectl describe pods pega-minikube-0 -n myproject
+  428  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  429  kubectl describe pods pega-minikube-0 -n myproject
+  430  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  431  minikube ip
+  432  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  433  kubectl get pod
+  434  kubectl get pod myproject
+  435  kubectl get pod -o wide
+  436  kubectl get service --all-namespaces
+  437  docker ps
+  438  kubectl get pods -o wide
+  439  kubectl get service --all-namespaces
+  440  kubectl get --all-namespaces  --output json  pods | jq '.items[] | select(.status.podIP=="10.22.19.69")' | jq .metadata.name "pega-minikube"
+  441  kubectl get pods --all-namespaces -o wide
+  442  kubectl get service --all-namespaces
+  443  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  444  kubectl get --all-namespaces  --output json  pods | jq '.items[] | select(.status.podIP=="10.22.19.69")' | jq .metadata.name "pega-minikube"
+  445  kubectl get pods --all-namespaces -o wide
+  446  kubectl describe pods pega-minikube-0 -n myproject
+  447  kubectl get pods --all-namespaces -o wide
+  448  kubectl get pod myproject
+  449  kubectl describe pods
+  450  kubectl get pods --all-namespaces -o wide
+  451  kubectl --v=8 logs 
+  452  kubectl --v=8 logs pega-minikube-0
+  453  kubectl get pods --all-namespaces -o wide
+  454  kubectl --v=8 logs 
+  455  kubectl --v=8 logs pega-minikube-0
+  456  kubectl --v=8 logs
+  457  kubectl --v=8 logs pega-minikube-0
+  458  kubectl get pods --all-namespaces -o wide
+  459  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  460  kubectl get pods --all-namespaces -o wide
+  461  ls -altr
+  462  more values-minimal.yaml
+  463  kubectl get pods --all-namespaces -o wide
+  464  docker run -d debian sleep 300
+  465  kubectl get pods --all-namespaces -o wide
+  466  helm ls --all --short | xargs -L1 helm delete --purge
+  467  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  468  kubectl get pods --all-namespaces -o wide
+  469  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  470  kubectl get pods --all-namespaces -o wide
+  471  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  472  kubectl get pods --all-namespaces -o wide
+  473  kubectl --v=8 logs pega-minikube-0
+  474  kubectl describe pods pega-minikube-0 -n myproject
+  475  kubectl get pods --all-namespaces -o wide
+  476  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  477  kubectl describe pods pega-minikube-0 -n myproject
+  478  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  479  kubectl cluster-info
+  480  kubectl api-resources
+  481  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  482  kubectl describe pods pega-minikube-0
+  483  kubectl describe pods pega-minikube-0 -n myproject
+  484  kubectl get svc
+  485  kubectl describe pods pega-minikube-0 -n myproject
+  486  helm ls --all --short | xargs -L1 helm delete --purge
+  487  ls -altr
+  488  vi values-minimal.yaml
+  489  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  490  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  491  kubectl describe pods pega-minikube-0 -n myproject
+  492  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  493  kubectl describe pods pega-minikube-0 -n myproject
+  494  helm ls --all --short | xargs -L1 helm delete --purge
+  495  minikube stop
+  496  clear
+  497  ls -altr
+  498  docker images
+  499  docker image rm pegasystems/search
+  500  docker images
+  501  docker image rm selvapal/pega
+  502  docker images
+  503  docker image rm pegasystems/pega
+  504  docker images
+  505  docker image rm pegasystems/pega-installer-ready
+  506  docker images
+  507  minikube start --cpus 4 --memory 12288
+  508  ls -altr
+  509  helm version
+  510  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  511  pwd
+  512  ls -altr
+  513  cd pega-helm-charts
+  514  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  515  ls -altr
+  516  cd charts
+  517  ls -altr
+  518  cd pega/
+  519  ls -altr
+  520  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  521  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  522  kubectl describe pods pega-minikube-0 -n myproject
+  523  docker images
+  524  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  525  docker images
+  526  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  527  kubectl describe pods pega-minikube-0 -n myproject
+  528  ls -altr
+  529  more values-minimal.yaml
+  530  kubectl describe pods pega-minikube-0 -n myproject
+  531  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  532  kubectl describe pods pega-minikube-0 -n myproject
+  533  docker images
+  534  kubectl describe pods pega-minikube-0 -n myproject
+  535  helm ls --all --short | xargs -L1 helm delete --purge
+  536  ls -altr
+  537  vi values-minimal.yaml
+  538  docker images
+  539  docker image rm pegasystems/search
+  540  docker images
+  541  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  542  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  543  kubectl describe pods pega-minikube-0 -n myproject
+  544  helm ls --all --short | xargs -L1 helm delete --purge
+  545  ls -altr
+  546  vi values-minimal.yaml
+  547  docker images
+  548  ls -altr
+  549  vi values-minimal.yaml
+  550  helm ls --all --short | xargs -L1 helm delete --purge
+  551  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  552  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  553  kubectl describe pods pega-minikube-0 -n myproject
+  554  helm ls --all --short | xargs -L1 helm delete --purge
+  555  vi values-minimal.yaml
+  556  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  557  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  558  kubectl describe pods pega-minikube-0 -n myproject
+  559  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  560  kubectl describe pods pega-minikube-0 -n myproject
+  561  helm ls --all --short | xargs -L1 helm delete --purge
+  562  vi values-minimal.yaml
+  563  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  564  vi values-minimal.yaml
+  565  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  566  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  567  kubectl describe pods pega-minikube-0 -n myproject
+  568  docker image
+  569  docker images
+  570  vi values-minimal.yaml
+  571  docker pull pegasystems/pega
+  572  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  573  kubectl describe pods pega-minikube-0 -n myproject
+  574  helm ls --all --short | xargs -L1 helm delete --purge
+  575  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  576  kubectl describe pods pega-minikube-0 -n myproject
+  577  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  578  kubectl describe pods pega-minikube-0 -n myproject
+  579  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  580  helm ls --all --short | xargs -L1 helm delete --purge
+  581  ls -altr
+  582  more values.yaml
+  583  ls -altr
+  584  vi values-minimal.yaml 
+  585  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  586  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  587  kubectl describe pods pega-minikube-0 -n myproject
+  588  helm ls --all --short | xargs -L1 helm delete --purge
+  589  vi values-minimal.yaml 
+  590  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  591  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  592  kubectl describe pods pega-minikube-0 -n myproject
+  593  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  594  kubectl describe pods pega-minikube-0 -n myproject
+  595  helm ls --all --short | xargs -L1 helm delete --purge
+  596  minikube stop
+  597  minikube start --kubernetes-version v1.15.0
+  598  minikube delete
+  599  minikube start --kubernetes-version v1.15.0
+  600  history | grep minikube start
+  601  history | grep minikube 
+  602  minikube start  --kubernetes-version=1.15.0 --vm-driver=none
+  603  helm version
+  604  kubectl create serviceaccount -n kube-system tiller
+  605  kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
+  606  helm init --service-account tiller
+  607  helm init --upgrade --service-account tiller
+  608  kubectl --namespace kube-system get pods | grep tiller
+  609  helm version
+  610  docker images
+  611  docker image rm pegasystems/pega
+  612  docker images
+  613  docker image rm pegasystems/search
+  614  ls -altr
+  615  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  616  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  617  kubectl describe pods pega-minikube-0 -n myproject
+  618  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  619  kubectl describe pods pega-minikube-0 -n myproject
+  620  watch kubectl describe pega-minikube-0
+  621  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  622  watch kubectl describe minikube
+  623  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  624  kubectl describe pods pega-minikube-0 -n myproject
+  625  kubectl get pods
+  626  kubectl get pods -n myproject
+  627  kubctl logs pega-minikube-0 -n myproject
+  628  kubectl logs pega-minikube-0 -n myproject
+  629  ls -altr
+  630  more values-minimal.yaml
+  631  kubectl logs pega-minikube-0 -n myproject
+  632  wget https://jdbc.postgresql.org/download/postgresql-42.2.5.jar
+  633  kubectl logs pega-minikube-0 -n myproject
+  634  more values-minimal.yaml
+  635  kubectl logs pega-minikube-0 -n myproject
+  636  kubectl logs pega-search-0 -n myproject
+  637  kubectl logs pega-minikube-0 -n myproject
+  638  more values-minimal.yaml
+  639  curl https://jdbc.postgresql.org/download/postgresql-42.2.5.jar
+  640  curl -o https://jdbc.postgresql.org/download/postgresql-42.2.5.jar
+  641  curl https://jdbc.postgresql.org/download/postgresql-42.2.5.jar
+  642  kubectl logs pega-minikube-0 -n myproject
+  643  curl -v http://google.com/
+  644  systemctl restart nscd.service
+  645  sudo -i systemctl restart nscd.service
+  646  /etc/init.d/nscd restart
+  647  cd /etc
+  648  cd init.d
+  649  nscd restart
+  650  apt install nscd
+  651  nscd restart
+  652  curl -v http://google.com/
+  653  /etc/init.d/nscd restart
+  654  curl -v http://google.com/
+  655  cd -
+  656  cd 
+  657  ls -altr
+  658  cd pega-helm-charts
+  659  ls -altr
+  660  cd charts/pega/
+  661  ls -altr
+  662  kubectl logs pega-minikube-0 -n myproject
+  663  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  664  helm ls --all --short | xargs -L1 helm delete --purge
+  665  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  666  helm ls --all --short | xargs -L1 helm delete --purge
+  667  helm ls --all --short | xargs -L1 helm delete --purge mypega
+  668  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  669  exit
+  670  kubectl logs pega-minikube-0 -n myproject
+  671  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  672  tail -10 history
+  673  history
+  674  kubectl logs pega-minikube-0 -n myproject
+  675  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  676  kubectl logs pega-minikube-0 -n myproject
+  677  kubectl get svc --all-namespaces
+  678  cd .ssh
+  679  ls -altr
+  680  more authorized_keys
+  681  pwd
+  682  ls -altr
+  683  terraform
+  684  snap install terraform
+  685  terraform -version
+  686  cd
+  687  ls -altr
+  688  git clone https://github.com/scholzj/aws-minikube.git
+  689  ls -altr
+  690  cd aws-minikube
+  691  ls -altr
+  692  vi example.tfvars
+  693  cd ./ssh\
+  694  cd ./ssh
+  695  cd /ssh
+  696  cd .ssh
+  697  cd ..
+  698  ls -altr
+  699  cd .ssh\
+  700  cd .ssh
+  701  ls -altr
+  702  cd ..
+  703  pwd
+  704  ls -altr
+  705  cd aws-minikube/
+  706  ls -altr
+  707  vi example.tfvars 
+  708  terraform init
+  709  more main.tf
+  710  vi example.tfvars 
+  711  terraform apply --var-file example.tfvars
+  712  ls -altr
+  713  more variables.tf 
+  714  ls -altr
+  715  mv variables.tf var
+  716  terraform init
+  717  mv example.tfvars variables.tf
+  718  terraform init
+  719  vi main.tf
+  720  ls -altr
+  721  more variables.tf
+  722  !
+  723  ls -altr
+  724  more main.tf
+  725  aws configure
+  726  apt install aws-cli
+  727  "snap install aws-cli
+  728  snap install aws-cli
+  729  aws configure
+  730  aws 
+  731  snap install aws-cli
+  732  apt  install awscli
+  733  aws configure
+  734  terraform init
+  735  terraform apply --var-file variables.tf
+  736  vi main.tf
+  737  terraform init
+  738  vi main.tf
+  739  terraform init
+  740  vi main.tf
+  741  ls -altr
+  742  vi variables.tf
+  743  terraform init
+  744  terraform version
+  745  wget https://releases.hashicorp.com/terraform/0.12.13/terraform_0.12.7_linux_amd64.zip
+  746  wget https://releases.hashicorp.com/terraform/0.12.13/terraform_0.12.13_linux_amd64.zip
+  747  unzip terraform_0.12.7_linux_amd64.zip
+  748  unzip terraform_0.12.13_linux_amd64.zip
+  749  ls -altr
+  750  unzip terraform_0.12.13_linux_amd64.zip
+  751  aptinstall unzip
+  752  apt install unzip
+  753  unzip terraform_0.12.13_linux_amd64.zip
+  754  sudo mv terraform /usr/local/bin/
+  755  terraform --version 
+  756  which terraform
+  757  terraform --version 
+  758  cd /usr/local/bin/
+  759  rm terraform 
+  760  pwd
+  761  cd 
+  762  ls -altr
+  763  cd aws-minikube
+  764  ls -altr
+  765  unzip terraform_0.12.13_linux_amd64.zip
+  766  sudo mv terraform /usr/local/bin/
+  767  terraform --version 
+  768  which terraformf
+  769  terraform --version
+  770  terraform upgrade
+  771  terraform --version
+  772  cd /usr
+  773  cd local
+  774  cd bin
+  775  rm terraform 
+  776  which terraform
+  777  cd snap/bin
+  778  rm /snap/bin/terraform/snap/bin/terraform
+  779  rm /snap/bin/terraform
+  780  which terraform
+  781  cd 
+  782  ls -altr
+  783  cd aws-minikube
+  784  ls -altr
+  785  unzip terraform_0.12.13_linux_amd64.zip
+  786  sudo mv terraform /usr/local/bin/
+  787  terraform --version 
+  788  sudo mv terraform /snap/bin
+  789  cd terraform --version 
+  790  cd /usr/local/bin/
+  791  mv terraform /snap/bin
+  792  terraform -version
+  793  cd
+  794  ls -altr
+  795  cd aws-minikube
+  796  terraform -version
+  797  ls -altr
+  798  terraform init
+  799  ls -altr
+  800  terraform apply --var-file variables.tf
+  801  ls -altr
+  802  mv variables.tf example.tfvars
+  803  vi var variables.tf
+  804  mv var variables.tf
+  805  ls -altr
+  806  terraform init
+  807  terraform plan
+  808  terraform plan --var-file example.tfvars
+  809  terraform plan --var-file example.tfvars -lock=false
+  810  ls -altr
+  811  rm terraform.tfstate .terraform.tfstate.lock.info
+  812  more example.tfvars
+  813  vi example.tfvars
+  814  terraform plan --var-file example.tfvars
+  815  cd ..
+  816  ls -altr'
+  817  ls -altr
+  818  cd pega-helm-charts/
+  819  ls -atr
+  820  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  821  ls -altr
+  822  cd charts/
+  823  ls
+  824  cd pega
+  825  ls -altr
+  826  tail -10 a.out
+  827  tail -50 a.out
+  828  tail -10 a.out
+  829  tail -50 a.out
+  830  vi a.out
+  831  pwd
+  832  ls-altr
+  833  ls -altr
+  834  cd pega-helm-charts
+  835  ls -altr
+  836  cd charts/
+  837  ls -altr
+  838  cd pega
+  839  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  840  helm ls --all --short | xargs -L1 helm delete --purge mypega
+  841  helm ls --all --short | xargs -L1 helm delete --purge
+  842  helm delete mypega
+  843  helm status
+  844  helm status mypega
+  845  helm ls --all --short | xargs -L1 helm delete --purge
+  846  kubectl logs pega-minikube-0 -n myproject
+  847  minikube delete
+  848  minikube start  --kubernetes-version=1.15.0 --vm-driver=none
+  849  minikube stop
+  850  minikube start --cpus 4 --memory 12288
+  851  minikube delete
+  852  minikube start  --kubernetes-version=1.15.0 --vm-driver=none minikube start --cpus 4 --memory 12288
+  853  minikube delete
+  854  minikube start  --kubernetes-version=1.15.0 --vm-driver=none minikube start --cpus 4 --memory 12288
+  855  minikube delete
+  856  minikube start  --kubernetes-version=1.15.0 --vm-driver=none minikube start --cpus 4 --memory 12288
+  857  kubectl create -f clusterrole.yaml
+  858  kubectl create serviceaccount -n kube-system tiller
+  859  kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
+  860  helm init --service-account tiller
+  861  helm init --upgrade --service-account tiller
+  862  kubectl --namespace kube-system get pods | grep tiller
+  863  helm version
+  864  docker images
+  865  helm ls --all --short | xargs -L1 helm delete --purge
+  866  helm delete mypega
+  867  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  868  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  869  helm install -n mypega --namespace myproject --values values-minimal.yaml
+  870  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  871  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  872  kubectl describe pods pega-minikube-0 -n myproject
+  873  kubectl logs pega-minikube-0 -n myproject
+  874  curl -v https://deb.nodesource.com/
+  875  ls -altr
+  876  more values-minimal.yaml
+  877  curl -v https://jdbc.postgresql.org/download/postgresql-42.2.5.jar
+  878  more values-minimal.yaml
+  879  curl -v https://jdbc.postgresql.org/download/postgresql-42.2.5.jar
+  880  kubectl logs pega-minikube-0 -n myproject
+  881  more values-minimal.yaml
+  882  kubectl logs pega-minikube-0 -n myproject
+  883  curl -v YOUR_JDBC_DRIVER_URI
+  884  kubectl logs pega-minikube-0 -n myproject
+  885  ls -altr
+  886  more values-minimal.yaml
+  887  ls -altr
+  888  vi values.yaml
+  889  vi values-minimal.yaml
+  890  kubectl logs pega-minikube-0 -n myproject
+  891  helm delete mypega
+  892  helm ls --all --short | xargs -L1 helm delete --purge
+  893  helm ls --all --short | xargs -L1 helm delete --purge myproject
+  894  helm ls --all --short | xargs -L1 helm delete --purge
+  895  helm delete purge 
+  896  helm delete mypega
+  897  helm delete 
+  898  ls -altr
+  899  pwd
+  900  minikube delete
+  901  kubectl describe pods pega-minikube-0 -n myproject
+  902  helm ls --all --short | xargs -L1 helm delete --purge
+  903  minikube start  --kubernetes-version=1.15.0 --vm-driver=none minikube start --cpus 4 --memory 12288
+  904  kubectl create serviceaccount -n kube-system tiller
+  905  kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
+  906  helm init --service-account tiller
+  907  helm init --upgrade --service-account tiller
+  908  kubectl --namespace kube-system get pods | grep tiller
+  909  helm version
+  910  helm install stable/redis
+  911  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  912  vi values-minimal.yaml
+  913  ls -altr
+  914  vi values.yaml
+  915  vi values-minimal.yaml
+  916  vi values.yaml
+  917  vi values-minimal.yaml
+  918  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+  919  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  920  kubectl describe pod pega-minikube-0
+  921  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  922  kubectl logs pega-minikube-0 -n myproject
+  923  ls -altr
+  924  more values-minimal.yaml
+  925  kubectl logs pega-minikube-0 -n myproject
+  926  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  927  kubectl logs pega-minikube-0 -n myproject
+  928  kubectl get service -o go-template='{{range.spec.ports}}{{"Port to access: "}}{{.nodePort}}{{end}}' pega-minikube-0 --namespace myproject
+  929  history >a.out
+  930  vi a.out
+  931  kubectl get --all-namespaces  --output json  pods | jq '.items[] | select(.status.podIP=="10.22.19.69")' | jq .metadata.name "pega-minikube"
+  932  kubectl get --all-namespaces  --output json  pods | jq '.items[] | select(.status.podIP=="10.22.19.69")'
+  933  kubectl get service -o go-template='{{range.spec.ports}}{{"Port to access: "}}{{.nodePort}}{{end}}' mypega --namespace myproject
+  934  kubectl logs pega-minikube-0 -n myproject
+  935  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  936  kubectl get pod -o=custom-columns=NODE:.spec.nodeName,NAME:.metadata.name --all-namespaces
+  937  kubectl get pods -o wide
+  938  kubectl get pods -o wide -n myproject
+  939  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  940  kubectl get service -o go-template='{{range.spec.ports}}{{"Port to access: "}}{{.nodePort}}{{end}}' pega-minikube-0 --namespace myproject
+  941  kubectl get service -o go-template='{{range.spec.ports}}{{"Port to access: "}}{{.nodePort}}{{end}}' --namespace myproject
+  942  kubectl get service -o go-template='{{range.spec.ports}}{{"Port to access: "}}{{.nodePort}}{{end}}' pega-minikube-0 --namespace myproject
+  943  kubectl get service -o go-template='{{range.spec.ports}}{{"Port to access: "}}{{.nodePort}}{{end}}' minikube  --namespace myproject
+  944  kubectlget services
+  945  kubectl get services
+  946  ping 10.96.0.1
+  947  kubectl get services
+  948  kubectl get services my-service
+  949  kubectl get services kubernetes
+  950  kubectl get deployments
+  951  kubectl get deployments -n myproject
+  952  kubectl get deployments -n mypega
+  953  kubectl get deployment
+  954  kubectl get deployments
+  955  kubectl get deployments mypega
+  956  kubectl get deployments myproject
+  957  kubectl get services
+  958  kubectl describe services kubernetes
+  959  kubectl expose deployment/kubernetes
+  960  kubectl expose deployment/mypega
+  961  kubectl expose deployment/myproject
+  962  kubectl get deployments
+  963  kubectl get deployments -n myproject
+  964  kubectl get deployments -o wide
+  965  kubectl get deployments wide
+  966  kubectl get deployments -o
+  967  kubectl get deployments -o wide -n myproject
+  968  kubectl get namespaces
+  969  kubectl get pods
+  970  kubectl get pods -o wide
+  971  kubectl describe deployments
+  972  kubectl describe deployments -n myproject
+  973  kubectl get deployments
+  974  kubectl get deployments -o wide -n myproject
+  975  kubectl get services kubernetes
+  976  kubectl get pods
+  977  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  978  kubectl get pods --all-namespaces
+  979  kubectl get deployments --all-namespaces
+  980  kubectl get services
+  981  minikube service kubernetes
+  982  minikube addons list
+  983  minikube ip
+  984  kubectl get service
+  985  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+  986  kubectl get services -o wide
+  987  minikube service list --namespace myproject
+  988  minikube service pega-minikube --url
+  989  minikube service list --namespace myproject
+  990  kubectl expose deployment pega-minikube --type=NodePort --port=80
+  991  minikube service pega-minikube --url
+  992  minikube service pega-minikube -n myproject --url
+  993  ls -altr
+  994  more values-minimal.yaml
+  995  ping pegacontainerpoc:8080
+  996  ping pegacontainerpoc:80
+  997  sudo ip route add $(cat ~/.minikube/profiles/minikube/config.json | jq -r ".KubernetesConfig.ServiceCIDR") via $(minikube ip)
+  998  kubectl run minikube-lb-patch --replicas=1 --image=elsonrodriguez/minikube-lb-patch:0.1 --namespace=kube-system
+  999  minikube ip
+ 1000  minikube addons enable ingress
+ 1001  kubectl get pods -n myproject
+ 1002  minikube service pega-minikube -n myproject --url
+ 1003  kubectl expose deployment pega-minikube --type=NodePort --port=80
+ 1004  minikube service list --namespace myproject
+ 1005  kubectl get svc
+ 1006  minikube ip
+ 1007  kubectl get nodes
+ 1008  curl -sL https://bit.ly/kong-ingress | kubectl create -f -
+ 1009  helm install stable/kong --set ingressController.enabled=true
+ 1010  export PROXY_IP=$(minikube service -n kong kong-proxy --url | head -1)
+ 1011  echo $PROXY_IP
+ 1012  minikube service list --namespace myproject
+ 1013  kubectl get nodes
+ 1014  minikube service list --namespace myproject
+ 1015  echo $PROXY_IP
+ 1016  minikube service list --namespace myproject
+ 1017  kubectl proxy
+ 1018  minikube status
+ 1019  kubectl expose deployment pega-minikube --type=NodePort
+ 1020  kubectl expose deployment pega-minikube -namespace myproject --type=NodePort
+ 1021  kubectl expose deployment pega-minikube --namespace myproject --type=NodePort
+ 1022  kubectl get services
+ 1023  kubectl run hello-minikube --image=gcr.io/google_containers/echoserver:1.4 --port=8080
+ 1024  kubectl expose deployment hello-minikube --type=NodePort
+ 1025  kubectl get services
+ 1026  expose deployment kubernetes --type=NodePort
+ 1027  kubectl expose deployment kubernetes --type=NodePort
+ 1028  kubectl get services --namespace myproject
+ 1029  kubectl expose deployment pega-minikube --namesapce myproject --type=NodePort
+ 1030  kubectl get services --namespace myproject
+ 1031  $ socat tcp-listen:8080,reuseaddr,fork tcp:172.17.4.99:$(kubectl get service outyet -o template --template="{{range.spec.ports}}{{.nodePort}}{{end}}")
+ 1032  $ socat tcp-listen:8080,reuseaddr,fork tcp:172.17.4.99:$(kubectl get service pega-minikube -o template --template="{{range.spec.ports}}{{.nodePort}}{{end}}")
+ 1033  kubectl get service pega-minikube --namespace myproject
+ 1034  $ socat tcp-listen:8080,reuseaddr,fork tcp:172.17.4.99:$(kubectl get service pega-minikube --namesapce myproject -o template --template="{{range.spec.ports}}{{.nodePort}}{{end}}")
+ 1035  kubectl get service pega-minikube --namespace myproject
+ 1036  kubectl get services --namespace myproject
+ 1037  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+ 1038  kubectl get services --namespace myproject
+ 1039  kubectl expose deployment pega-minikube --namesapce myproject --type=NodePort
+ 1040  kubectl get services --namespace myproject
+ 1041  kubectl logs pega-minikube-0 -n myproject
+ 1042  kubectl get services --namespace myproject
+ 1043  minikube dashboard
+ 1044  minikube service web
+ 1045  kubectl expose deployment hello-node --type=LoadBalancer --port=8080
+ 1046  kubectl get services
+ 1047  minikube stop
+ 1048  minikube start --cpus 4 --memory 12288 --vm-driver=none --kubernetes-version v1.15.0 --extra-config=apiserver.service-node-port-range=80-30000
+ 1049  kubectl get services
+ 1050  minikube service web
+ 1051  minikube dashboard
+ 1052  exit
+ 1053  ls -altr
+ 1054  cd aws-minikube
+ 1055  ls -altr
+ 1056  cd ..
+ 1057  cd pega-helm-charts
+ 1058  ls -altr
+ 1059  minikube tatus
+ 1060  minikube status
+ 1061  minikube start --cpus 4 --memory 12288 --vm-driver=none
+ 1062  minikube stop
+ 1063  minikube start --cpus 4 --memory 12288 --vm-driver=none --kubernetes-version v1.15.0
+ 1064  minikube delete 
+ 1065  minikube status
+ 1066  minikube start --cpus 4 --memory 12288 --vm-driver=none --kubernetes-version v1.15.0
+ 1067  helm init --service-account tiller
+ 1068  helm init --upgrade --service-account tiller
+ 1069  kubectl --namespace kube-system get pods | grep tiller
+ 1070  helm version
+ 1071  kubectl cluster-info
+ 1072  kubectl get nodes
+ 1073  kubectl describe node
+ 1074  helm init --upgrade --service-account tiller
+ 1075  kubectl --namespace kube-system get pods | grep tiller
+ 1076  kubectl -n kube-system create serviceaccount tiller
+ 1077  kubectl create clusterrolebinding tiller --clusterrole cluster-admin --serviceaccount=kube-system:tiller
+ 1078  helm init --service-account tiller
+ 1079  helm version
+ 1080  helm init --service-account tillerhelm init --upgrade --service-account tiller
+ 1081  helm init --upgrade --service-account tiller
+ 1082  helm version
+ 1083  ls -altr
+ 1084  cd ..
+ 1085  ls -altr
+ 1086  kubectl -n kube-system  rollout status deploy/tiller-deploy
+ 1087  helm version
+ 1088  kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/master/deploy/static/provider/aws/service-l7.yaml
+ 1089  helm version
+ 1090  clear
+ 1091  pwd
+ 1092  ls -altr
+ 1093  minikube status
+ 1094  minikube service web
+ 1095  minikube status
+ 1096  kubectl get nodes
+ 1097  kubectl describe node minikube
+ 1098  echo $(kubectl get nodes -o jsonpath='{.items[*].status.addresses[?(@.type=="InternalIP")].address}')
+ 1099  echo $(kubectl get service web -o jsonpath='{.spec.ports[*].nodePort}')
+ 1100  minikube service web
+ 1101  'minikube service web -n webnasp
+ 1102  minikube service web -n webnasp
+ 1103  vi web-np.yaml
+ 1104  mv web-np.yaml web-np.json
+ 1105  kubectl create -f web-np.json
+ 1106  more web-np.json
+ 1107  minikube service web -n webspace
+ 1108  ssh -L30000:localhost:30000 ubuntu@54.252.170.135
+ 1109  chmod go-w ~/
+ 1110  chmod 700 ~/.ssh
+ 1111  chmod 600 ~/.ssh/
+ 1112  ssh -L30000:localhost:30000 ubuntu@54.252.170.135
+ 1113  ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no user@host
+ 1114  ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no user@54.252.170.135
+ 1115  cd .ssh
+ 1116  ls -altr
+ 1117  chmod 777 authorized_keys
+ 1118  ssh -L30000:localhost:30000 ubuntu@54.252.170.135
+ 1119  ssh -L30000:localhost:30000 root@54.252.170.135
+ 1120  ssh -L30000:localhost:30000 54.252.170.135
+ 1121  /home/user 600
+ 1122  cd /home/user
+ 1123  clear
+ 1124  ls -altr
+ 1125  ssh -L30000:localhost:30000 54.252.170.135
+ 1126  PermitRootLogin yes
+ 1127  sudo nano /etc/ssh/sshd_config
+ 1128  vi /etc/ssh/sshd_config
+ 1129  sudo service ssh restart
+ 1130  ssh -L30000:localhost:30000 54.252.170.135
+ 1131  sudo service ssh restart
+ 1132  sudo passwd
+ 1133  ssh -L30000:localhost:30000 54.252.170.135
+ 1134  exit
+ 1135  ls -altr
+ 1136  minikube status
+ 1137  exit
+ 1138  ls -altr
+ 1139  cd pega-helm-charts
+ 1140  ls -altr
+ 1141  cd charts
+ 1142  ls -altr
+ 1143  cd pega
+ 1144  ls -altr
+ 1145  minikube start --cpus 4 --memory 12288 --vm-driver=none --kubernetes-version v1.15.0 --extra-config=apiserver.service-node-port-range=80-30000
+ 1146  minikube status
+ 1147  helm init --service-account tiller
+ 1148  helm version
+ 1149  kubectl --namespace kube-system get pods | grep tiller
+ 1150  kubectl proxy
+ 1151  kubectl run hello-minikube --image=gcr.io/google_containers/echoserver:1.4 --port=8080
+ 1152  kubectl expose deployment hello-minikube --type=NodePort
+ 1153  kubectl get services
+ 1154  kubectl proxy
+ 1155  ls -altr
+ 1156  minikube service web
+ 1157  helm version
+ 1158  helm install . -n mypega --namespace myproject --values values-minimal.yaml
+ 1159  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+ 1160  clear
+ 1161  kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
+ 1162  history > a.ouy
